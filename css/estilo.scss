@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css?family=Calligraffitti|Open+Sans+Condensed:300,700|Open+Sans:400,800');
+
+$clara: #ED7801;
+$escura: #762823;
+$branco: #FFF;
+
+$titulo: "Open Sans Condensed", "Open Sans", Tahoma;
+$texto: "Open Sans", Tahoma;
+
+p {
+  color: $clara;
+  font: 14px $texto;
+}
+
+h1 {
+  color: $escura;
+  font: 36px $titulo;
+}
+
+h2 {
+  color: $escura;
+  font: 24px $titulo;
+}
+
+nav{
+  ul{
+    float: right;
+    margin:30px;
+    li{
+      display: inline;
+      a{
+        color: $clara;
+        text-decoration: none;
+        padding: 10px 20px;
+        font: 18px $titulo;
+        transition: all 0.5s;
+        &:hore{
+          background: $escura;
+        }
+      }
+    }
+  }
+}
+
+header{
+  width: 100%;
+  height: 600px;
+  background: url(../images/header.jpg);
+  background-size: cover;
+  padding: 0px 10px;
+  box-sizing: border-box; 
+}
+
+body{
+  margin: 0;
+}
+
+.logo{
+  margin: 15px;
+  float: left;
+}
+
+.msg{
+  float: left;
+  width: 400px;
+  background: rgba(0,0,0,0.6);
+  text-align: center;
+  margin: 50px;
+  padding: 20px;
+  border-radius: 5px;
+  p{
+    color: $branco;
+  }
+}
+
+.max{
+  float: right;
+  margin:5px;
+}
+
+.clear{
+  clear: both;
+}
+
+.center {
+  text-align: center;
+}
+
+.titulo{
+  background: $escura;
+  text-align: center;
+  padding: 20px;
+  h1{
+    color: $clara;
+  }
+}
+
+.container{
+  wiidth: 960px;
+  margin:auto;
+}
+
+.linha{
+  display: flex;
+}
+
+.item{
+  flex: 1;
+  border: 1px solid #CCC;
+  margin: 5px;
+  text-align: center;
+  &:hover{
+    border-color: $escura;
+  }
+  img{
+    width: 160px;
+  }
+  i{
+    size: 50x;
+    color: $escura;
+    margin: 20px;
+  }
+}
+
+#local{
+  background: url("../images/fogo.jpg") fixed no-repeat;
+  padding: 40px 0;
+  float: left;
+  width: 100%;
+  background-size: cover;
+}
+
+#menu{
+  border: 1px solid $escura;
+  color: $escura;
+  padding: 10px;
+  float: right;
+  margin: 20px;
+  display: none;
+}
+
+@media (min-width: 480px) and (max-width: 800px){
+  nav ul{
+    width: 100%;
+    float:left;
+    background:$branco;
+    li{
+      display: block;
+      a{
+        padding:20px 0;
+        font-size: 20px;
+        float: left;
+        width: 100%;
+      }
+    }
+  }
+
+  #menu{
+    display: block;
+  }
+
+  .container{
+    width:400px;
+  }
+
+  .msg{
+    width: 350px;
+    padding: 10px;
+  }
+
+  .max{
+    display: none;
+  }
+}
+
+@media (max-width: 480px){
+
+}
