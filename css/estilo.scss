@@ -34,6 +34,7 @@ nav{
         padding: 10px 20px;
         font: 18px $titulo;
         transition: all 0.5s;
+        font-weight: 700;
         &:hore{
           background: $escura;
         }
@@ -120,6 +121,13 @@ body{
     color: $escura;
     margin: 20px;
   }
+}
+
+.texto{
+  /* width: 400px; */
+  padding: 0px 200px 0px 200px;
+  text-align: right;
+  color:blue;
 }
 
 #local{

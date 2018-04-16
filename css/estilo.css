@@ -21,7 +21,8 @@ nav ul {
       text-decoration: none;
       padding: 10px 20px;
       font: 18px "Open Sans Condensed", "Open Sans", Tahoma;
-      transition: all 0.5s; }
+      transition: all 0.5s;
+      font-weight: 700; }
       nav ul li a:hore {
         background: #762823; }
 
@@ -88,6 +89,12 @@ body {
     size: 50x;
     color: #762823;
     margin: 20px; }
+
+.texto {
+  /* width: 400px; */
+  padding: 0px 200px 0px 200px;
+  text-align: right;
+  color: blue; }
 
 #local {
   background: url("../images/fogo.jpg") fixed no-repeat;
