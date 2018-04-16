@@ -1,9 +1,9 @@
-<section id="destaques">
-  <h1 class="center">
+<section class="container" id="destaques">
+  <h1 class="titulo-section">
     Sobre
   </h1>
 
-  <div class="texto">
+  <div class="texto-sobre">
     <p>
       A empresa começou em 1953 com o nome Insta-Burger King, uma cadeia de restaurantes com sede em Jacksonville. <br>
       Depois que o Insta-Burger King entrou em dificuldades financeiras em 1954, seus dois franqueados localizados em Miami,<br>
@@ -25,6 +25,7 @@
       do Burger King com suas franquias nem sempre foi harmonioso. Brigas ocasionais têm causado inúmeros problemas e, em<br>
       vários casos, a relação dos seus licenciados e a empresa degeneraram em processos judiciais. A franquia australiana do <br>
       Burger King, Hungry Jack, é a única franquia que opera sob um nome diferente devido a uma disputa de direitos autorais<br>
-      e uma série de processos judiciais entre os dois..</p>
+      e uma série de processos judiciais entre os dois..
+    </p>
   </div>
 </section>

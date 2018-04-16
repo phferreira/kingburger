@@ -69,8 +69,14 @@ body {
   .titulo h1 {
     color: #ED7801; }
 
+.titulo-section {
+  text-align: center;
+  padding: 20px; }
+  .titulo-section h1 {
+    color: #ED7801; }
+
 .container {
-  wiidth: 960px;
+  width: 960px;
   margin: auto; }
 
 .linha {
@@ -91,10 +97,20 @@ body {
     margin: 20px; }
 
 .texto {
-  /* width: 400px; */
   padding: 0px 200px 0px 200px;
-  text-align: right;
+  text-align: center;
   color: blue; }
+
+.texto-contato {
+  width: 200px;
+  padding: 0px 20px 0px 20px;
+  margin: 5px;
+  text-align: center; }
+
+.texto-sobre {
+  padding: 0px 2px 0px 2px;
+  margin: 5px;
+  text-align: center; }
 
 #local {
   background: url("../images/fogo.jpg") fixed no-repeat;
@@ -126,9 +142,6 @@ body {
 
   #menu {
     display: block; }
-
-  .container {
-    width: 400px; }
 
   .msg {
     width: 350px;

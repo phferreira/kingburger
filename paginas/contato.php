@@ -1,17 +1,18 @@
-<section>
-	<h1 class="center">
-		ENTRE EM CONTATO
-	</h1>
-	<div class="texto">
-		<p> Preencha o formulário abaixo. <br> *Campos Obrigatórios
-	</div>
+<section class="container">
+  <h1 class="titulo-section">
+    Entre em contato conosco
+  </h1>
 
-<div class="container">
+<div class="titulo ">
+  <div class="texto">
+    <p> Preencha o formulário abaixo. 
+  </div>
+
   <form action="">
 
-    <input type="text" id="fname" name="firstname" placeholder="*   Nome">
-    <input type="text" id="email" name="email" placeholder="*   E-Mail.">
-    <textarea id="mensagem" name="menssgem" placeholder="*   Digite sua mensagem" style="height:200px"></textarea>
+    <input class="texto-contato" type="text" id="nome" name="nome" placeholder="*   Nome"><br>
+    <input class="texto-contato" type="text" id="email" name="email" placeholder="*   E-Mail."><br>
+    <textarea class="texto-contato" id="mensagem" name="mensagem" placeholder="*   Digite sua mensagem" style="height:200px"></textarea><br>
 
     <input type="submit" value="Enviar">
     <br><br>

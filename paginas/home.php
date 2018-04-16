@@ -1,5 +1,7 @@
-<section id="destaques">
-  <h1 class="center">Destaques no cardápio</h1>
+<section class="container" id="destaques">
+  <h1 class="titulo-section">
+    Destaques no cardápio
+  </h1>
 
   <div class="container linha">
     <div class="item">
